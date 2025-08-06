@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+  background-color: #121212; /* very dark black */
+  color: #ddd; /* light grey text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #222; /* dark grey */
+  border-radius: 8px;
+  box-shadow: 0 0 15px #00ff66; /* subtle green glow */
+}
+
+/* Headers */
+h1, h2, h3 {
+  color: #00ff66; /* bright green */
+  text-shadow: 0 0 8px #00ff66;
+}
+
+/* Links */
+a {
+  color: #00ff66;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #66ff99;
+  text-shadow: 0 0 8px #66ff99;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  margin-bottom: 1.2em;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #181818;
+  padding: 12px 0;
+  box-shadow: 0 0 15px #00ff66;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 20px;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+}
